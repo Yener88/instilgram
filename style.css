@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+b {
+    font-size: 16px;
+}
+
+.inputcommentsec {
+    border: none;
+    width: -webkit-fill-available;
+    height: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.borderradius {
+    border-radius: 100%;
+}
+
+button {
+    width: 20%;
+    height: 100%;
+    color: rgb(1, 149, 246);
+    border: none;
+    background-color: white;
+
+}
+
+.paddingleft {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.imgheader {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.imginside {
+    width: 100%;
+
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 6px;
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.mainsection {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.headerlogo {
+    width: 110px;
+    display: flex;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.headerimage {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.headerimage2 {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+}
+.headerinput {
+    border: none;
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    width: 230px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.storyarea {
+    width: 600px;
+    height: auto;
+    margin: 30px;
+    justify-content: flex-end;
+    display: grid;
+}
+
+.storyareadesign {
+    display: flex;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 6px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 500px;
+
+}
+
+
+.picstoryarea {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    object-fit: cover;
+}
+
+.namestoryarea {
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.poststoryarea {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.rightsticky {
+    width: 375px;
+    height: 80vh;
+    top: 100px;
+    position: sticky;
+    padding-left: 10px;
+}
+
+.postcontainer {
+    padding: 10px;
+}
+
+.dotssize {
+    width: 20px;
+}
+
+.postingheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.postheaderpostion {
+    display: flex;
+    align-items: center;
+}
+
+.postheaderpostion2 {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.iconunderpicpos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentinputsec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-top: 1px solid rgb(216, 216, 216);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.myaccountpic {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.rightimg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.rightfriendposition {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.myaccountpicpos {
+    display: flex;
+    align-items: center;
+}
+
+.rightmargin {
+    margin-left: 20px;
+}
+
+.implinks {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 14px;
+}
+.implinks:hover {
+    text-decoration: underline;
+    color: #d3d3d3;
+    font-size: 14px;
+}
+.implinks2 {
+    color: #d3d3d3;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.titledescription {
+    color: #ACACAC;
+    font-size: 14px;
+}
+
+.rightcolor {
+    color: #8F8F8F;
+}
+
+.rightcolor2 {
+    color: #0095F6;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.justpadding {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+.allsee {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width:1070px) {
+    
+    .dnone {
+        display: none;
+    }
+    
+}
+@media (max-width:660px) {
+
+    .storyareadesign {
+        width: 100%;
+    }
+    
+    .maincontent {
+    width: 100%;
+    }
+
+    .dnone2 {
+        display: none;
+    }
+
+}
+@media (max-width:430px) {
+    
+    .headerimage {
+    margin-left: 5px;
+    }
+}

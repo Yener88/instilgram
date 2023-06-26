@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instilgram</title>
+    <link rel="icon" type="image/x-icon" href="img/Logosmall.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="jsonarray.js"></script>
+</head>
+
+<body onload="show(), includeHTML()">
+    <div w3-include-html="templates/header.html"></div>
+
+    <div class="mainsection">
+        <div class="storyarea">
+            <div class="storyareadesign">
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/bildheader.jpg">
+                        <p class="namestoryarea">Bild</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/expressheader.jpg">
+                        <p class="namestoryarea">Express</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/tagesschauheader.jpg">
+                        <p class="namestoryarea">Tagesschau</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/sportschauheader.jpg">
+                        <p class="namestoryarea">Sportschau</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/dasersteheader.jpg">
+                        <p class="namestoryarea">ARD</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/zdfheader.jpg">
+                        <p class="namestoryarea">ZDF</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/rtlheader.jpg">
+                        <p class="namestoryarea">RTL</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/prosiebenheader.jpg">
+                        <p class="namestoryarea">Prosieben</p>
+                    </div>
+                </div>
+                <div class="poststoryarea">
+                    <div class="picsizestoryarea pointer"><img class="picstoryarea" src="img/netflixheader.jpg">
+                        <p class="namestoryarea">Netflix</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="postcontainer"></div>
+        </div>
+
+        <div class="rightsticky dnone">
+
+            <div class="rightfriendposition">
+                <div class="myaccountpicpos">
+                    <img class="myaccountpic"src="img/myaccount.jpg">
+                    <div class="rightmargin"><div class="fontbold">Yener_Bas</div>
+                    <div class="titledescription">Yener Bas</div></div>
+                </div>
+                <div class="rightcolor2">Wechseln</div>
+            </div>
+
+            <div class="rightfriendposition justpadding">
+                <div class="rightcolor"><b>Vorschläge für dich</b></div>
+                <div class="allsee">Alle ansehen</div>
+            </div>
+
+            <div class="rightfriendposition">
+                <div class="rightfriendposition">
+                    <div>
+                        <img class="rightimg" src="img/arni.jpg">
+                    </div>
+                    <div class="rightmargin">
+                        <div class="fontbold">Arnorld_Schwarznegger</div>
+                        <div class="titledescription">Neu auf Instagram</div>
+                    </div>
+                </div>
+                    <div class="rightcolor2">Folgen</div>
+                
+            </div>
+            <div class="rightfriendposition">
+                <div class="rightfriendposition">
+                    <div>
+                        <img class="rightimg" src="img/willsmith.jpg">
+                    </div>
+                    <div class="rightmargin">
+                        <div class="fontbold">Will_Smith</div>
+                        <div class="titledescription">Neu auf Instagram</div>
+                    </div>
+                </div>
+                    <div class="rightcolor2">Folgen</div>
+                
+            </div>
+            <div class="rightfriendposition">
+                <div class="rightfriendposition">
+                    <div>
+                        <img class="rightimg" src="img/queen.jpg">
+                    </div>
+                    <div class="rightmargin">
+                        <div class="fontbold">Queen_Elizabeth</div>
+                        <div class="titledescription">Neu auf Instagram</div>
+                    </div>
+                </div>
+                    <div class="rightcolor2">Folgen</div>
+                
+            </div>
+            <div class="rightfriendposition">
+                <div class="rightfriendposition">
+                    <div>
+                        <img class="rightimg" src="img/curry.jpg">
+                    </div>
+                    <div class="rightmargin">
+                        <div class="fontbold">Stephan_Curry</div>
+                        <div class="titledescription">Neu auf Instagram</div>
+                    </div>
+                </div>
+                    <div class="rightcolor2">Folgen</div>
+                
+            </div>
+            <div class="rightfriendposition">
+                <div class="rightfriendposition">
+                    <div>
+                        <img class="rightimg" src="img/ibo.jpg">
+                    </div>
+                    <div class="rightmargin">
+                        <div class="fontbold">Ibrahim_Tatlises</div>
+                        <div class="titledescription">Neu auf Instagram</div>
+                    </div>
+                </div>
+                    <div class="rightcolor2">Folgen</div>
+                
+            </div>
+
+
+
+
+            <div>
+                <div>
+                    <div class="implinks2"> 
+                        <a class="implinks" href="#">Info</a>&nbsp;|
+                        <a class="implinks" href="#">Hilfe</a>&nbsp;|
+                        <a class="implinks" href="#">Presse</a>&nbsp;|
+                        <a class="implinks" href="#">Datenrichtlinien</a>&nbsp;|
+                        <a class="implinks" href="#">Jobs</a>&nbsp;|
+                        <a class="implinks" href="#">Standorte</a>&nbsp;|
+                        <a class="implinks" href="#">Sprache</a>&nbsp;
+                    </div>
+
+                </div>
+                <div class="implinks2">© 2022 INSTILGRAM FROM BAS</div>
+            </div>
+
+
+        </div>
+    </div>
+    <div w3-include-html="templates/footer.html"></div>
+</body>
+
+</html>
